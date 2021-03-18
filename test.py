@@ -3,8 +3,8 @@ class Solution:
         max_i=0
         for i,jump in enumerate(nums):
             if max_i>=i and i+jump>max_i:
-                max_i=i+jump
-        return max_i>=i
+                max_i=i+jump#更新
+        return max_i>=i#如果小于，则到不了。
                 
     
 
