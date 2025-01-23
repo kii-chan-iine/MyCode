@@ -159,4 +159,5 @@ pythontex-files-*/
 TSWLatexianTemp*
 
 *.lock
+*.csv
 .ipynb_checkpoints
