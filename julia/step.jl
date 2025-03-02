@@ -11,3 +11,18 @@ result = step(sys, 10)  # 模拟时间范围为 0 到 10 秒
 # t, y = step(sys, 10)  # 模拟时间范围为 0 到 10 秒
 
 plot(result)
+println(result)
+# println(typeof(result))
+
+
+
+# A = 
+#  -2.0  -1.0
+#   1.0   0.0
+# B =
+#  1.0
+#  0.0
+# C =
+#  0.0  1.0
+# D = 
+#  0.0
